@@ -1,1 +1,1 @@
-[![Build Status](https://www.travis-ci.org/shipSun/travis.svg?branch=master)]
+[![Build Status](https://www.travis-ci.org/shipSun/travis.svg?branch=master)](https://www.travis-ci.org/shipSun/travis) 
