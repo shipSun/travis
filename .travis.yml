@@ -1,5 +1,6 @@
 language: php
 script: true
-services: mysql
+services:
+  - mysql
 before_install:
-	- sudo mysql -e 'CREATE DATABASE wechat_ticket;'
+  - sudo mysql -e 'CREATE DATABASE wechat_ticket;'
