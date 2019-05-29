@@ -1,6 +1,8 @@
 language: php
-script: true
+
 services:
   - mysql
 before_install:
   - sudo mysql -e 'CREATE DATABASE wechat_ticket;'
+  - composer install
+script: ./vendor/bin/phpunit -c ./phpunit.xml
